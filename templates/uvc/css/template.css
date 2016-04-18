@@ -1,0 +1,751 @@
+/* FRONTEND CSS
+*********************************************/
+@import "reset.css";
+
+html {
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 15px;
+	position: relative;
+	min-height: 100%;
+}
+
+a, a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+
+header{
+	width: 1140px;
+	height: 90px;
+	margin: 0 auto;
+}
+.logo{
+	width: 165px;
+	float: left;
+	margin-right: 120px;
+}
+.logo p{
+	margin: 13px 0;
+}
+.phones{
+	float: left;
+	width: 310px;
+	padding: 0 0 0 30px;
+	margin: 12px 0 0 0;
+	background: url('../images/verstka/phone.png') no-repeat center left;
+}
+.phones p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.search{
+	float: right;
+	width: 275px;
+	height: 90px;
+}
+.menu-services{
+	background: #404000;
+	height: 35px;
+}
+.menu-services-wrap{
+	width: 1140px;
+	margin: 0 auto;
+	text-align: right;
+	height: 35px;
+}
+#menu-services{
+	float: right;
+	width: 310px;
+}
+#menu-services li{
+	float: left;
+	list-style: none;
+	margin-top: 8px;
+}
+#menu-services li a{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 0 0 0 30px;
+}
+#menu-services li a:hover, #menu-services li.active{
+	text-decoration: underline;
+}
+
+/*********** Main menu ************/
+.mainmenu{
+	height: 70px;
+	background: #fedb00;
+}
+.menumain{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+.menumain li{
+	list-style: none;
+	float: left;
+	padding: 0 2px 0 0;
+	width: 133px;
+}
+.menumain li.item-111{
+	width: 171px;
+}
+.menumain li.item-112{
+	width: 170px;
+}
+.menumain li.item-113{
+	width: 221px;
+}
+.menumain li.item-114{
+	padding: 0;
+	width: 167px;
+}
+.menumain li a{
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #663800;
+	text-transform: uppercase;
+	padding: 17px 3px 3px 5px;
+}
+.menumain>li:hover>a{
+	text-decoration: underline;
+	background: #663800;
+	color: #fff;
+}
+.menumain>li:hover>a::after{
+	content: url('../images/verstka/menu_hover_bottom_arrow.png');
+	display: block;
+	position: absolute;
+	bottom: -14px;
+	left: 25px;
+	z-index: 99999999;
+}
+.menumain>li.item-114:hover>a::after{
+	content: '';
+}
+.menumain li a img{
+	display: inline-block;
+	margin: 0 3px 0 0;
+}
+.menumain li a .image-title{
+	display: inline-block;
+	float: right;
+	width: 90px;
+}
+.menumain li.item-111 a .image-title{
+	width: 130px;
+}
+.menumain li.item-112 a .image-title{
+	width: 120px;
+}
+.menumain li.item-113 a .image-title{
+	width: 175px;
+}
+.menumain li.item-114 a{
+	padding-right: 11px;
+}
+.menumain li.item-114 a .image-title{
+	padding-top: 8px;
+	width: 108px;
+}
+.menumain li.item-113 a img{
+	margin-top: 3px;
+}
+.menumain li.item-114 a img{
+	margin-right: 8px;
+}
+.menumain>li>ul{
+	display: none;
+}
+.menumain>li:hover>ul{
+	position: absolute;
+	left: 0;
+	width: 1140px;
+	background: #fff;
+	display: block;
+	z-index: 999999;
+}
+.menumain>li>ul>li{
+	display: block;
+	width: 180px;
+	float: left;
+	margin: 3px 20px 10px 10px;
+}
+.menumain>li>ul>li>a{
+	font-size: 15px;
+	width: 190px;
+	border-bottom: 1px solid #333;
+	height: 38px;
+	display:table-cell;
+	vertical-align: bottom;
+}
+.menumain>li>ul>li>a:hover{
+	text-decoration: underline;
+}
+.menumain>li>ul>li>ul>li>a{
+	font-weight: normal;
+	color: #333;
+	width: 180px;
+	text-transform: none;
+	font-size: 15px;
+	height: auto;
+	padding: 5px 3px 3px 5px;
+}
+.menumain>li>ul>li>ul>li>a:hover{
+	text-decoration: underline;
+}
+.menumain ul:hover + a{
+	color: red;
+}
+
+
+.component-wrapper{
+	width: 1140px;
+	margin: 20px auto 50px;
+}
+.services-blocks{
+	margin: 35px 0 0;
+	padding-bottom: 50px;
+	height: 260px;
+	border-bottom: 1px solid #333;
+}
+.services-blocks>div{
+	width: 367px;
+	height: 260px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.services-blocks .shares-bl{
+	margin: 0;
+	width: 366px;
+}
+.services-blocks h3{
+	height: 40px;
+	background: #fedb00;
+	margin: 0;
+}
+.services-blocks h3 a{
+	display: inline-block;
+	width: 337px;
+	padding: 7px 15px 10px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #663800;
+}
+.grthan{
+	float: right;
+}
+.why-uvc-bl{
+	width: 754px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.why-uvc h3, .news h3, .contact-info h3{
+	font-size: 25px;
+	margin: 20px 0 15px;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	background: url('../images/verstka/h1-bg-underline.png') no-repeat left bottom;
+}
+.why-uvc p, .item-page p{
+	font-size: 15px;
+	text-align: justify;
+}
+.why-uvc .readmore{
+	font-size: 15px;
+	color: #909090;
+	text-decoration: underline;
+}
+.why-uvc .readmore:hover{
+	text-decoration: none;
+}
+.news-bl{
+	width: 366px;
+	float: left;
+}
+.news li{
+	list-style: none;
+	margin-bottom: 22px;
+}
+.news li:last-child{
+	margin-bottom: 0;
+}
+.news li .mod-articles-category-date{
+	display: block;
+	font-size: 15px;
+	color: #909090;
+	margin-bottom: 2px;
+}
+.news li .mod-articles-category-title{
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+}
+.contact-info-bl{
+	margin: 60px 0 10px;
+}
+.contact-info .left-contact{
+	width: 48%;
+	float: left;
+	margin: 0 2% 0 0;
+}
+.contact-info .right-contact{
+	width: 48%;
+	float: left;
+	margin: 0 0 0 2%;
+}
+.contact-info .left-contact p, .contact-info .right-contact p{
+	margin: 0;
+	line-height: 22px;
+}
+.contact-info .left-contact p:first-child, .contact-info .right-contact p:first-child{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.map{
+	width: 100%;
+	height: 360px;
+	margin: 15px 0 40px;
+}
+.item-page{}
+.item-page .page-header h2{
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 28px;
+}
+.item-pageshares-article .page-header h2{
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.left-menu{
+	width: 270px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.wrapper{
+	width: 850px;
+	float: left;
+}
+
+.breadcrumb{
+	height: 30px;
+}
+.breadcrumb li{
+	float: left;
+	list-style: none;
+	color: #757575;
+	font-size: 14px;
+}
+.breadcrumb li:first-child{
+	display: none;
+}
+.breadcrumb li a{
+	color: #757575;
+}
+.breadcrumb li .divider{
+	padding: 0 3px 0 2px;
+}
+.service-article>.page-header>h2, .finance-article>.page-header>h2{
+	margin: 0 0 15px;
+	color: #000;
+}
+.item-page .service-text p, .item-page .finance-text p{
+	font-size: 18px;
+	line-height: 26px;
+	margin: 5px 0;
+}
+.item-page .finance-text .finance-ul li{
+	font-size: 18px;
+	line-height: 26px;
+	margin: 15px 0;
+	font-weight: bold;
+	padding: 0 0 0 25px;
+	list-style: none;
+	background: url('../images/verstka/fin-li-bg.jpg') no-repeat left 6px;
+}
+
+.fox_form .required, .fox_form .asterisk, .articles-contact-form .alert-error{
+	display: none;
+}
+.articles-contact-form{
+	width: 750px !important;
+	padding: 0 !important;
+}
+.articles-contact-form .fox_form{
+	background: #e5e6e6;
+	padding: 20px;
+}
+.articles-contact-form h2{
+	font-size: 18px;
+	font-weight: normal;
+	color: #404000;
+	text-transform: uppercase;
+	background: #e5e6e6;
+	margin: 20px 0 0;
+	padding: 14px 20px;
+	width: 230px;
+}
+.articles-contact-form .fox_form .control-group{
+	width: 348px;
+	margin-right: 0 !important;
+	margin-bottom: 15px !important;
+}
+.articles-contact-form .fox_form .control-group:first-child, .articles-contact-form .fox_form .control-group:nth-child(3){
+	margin-right: 10px !important;
+}
+.articles-contact-form .fox_form .control-group label{
+	width: 300px;
+	margin-bottom: 7px;
+}
+.articles-contact-form .fox_form .control-group .controls input{
+	width: 329px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 8px 10px !important;
+}
+.articles-contact-form .fox_form .control-group:nth-child(4){
+	width: 100%;
+}
+.articles-contact-form .fox_form .control-group:nth-child(4) label{
+	width: 100%;
+}
+.articles-contact-form .fox_form .control-group:nth-child(4) .controls textarea{
+	width: 690px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 8px 10px !important;
+	resize: none;
+}
+.articles-contact-form .fox_form .control-group:last-child{
+	text-align: right;
+	width: 100%;
+	margin-bottom: 0 !important;
+}
+.articles-contact-form .btn{
+	background: #FEDB00 !important;
+	width: 180px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 14px 8px !important;
+	margin-right: 0 !important;
+	outline: none;
+
+}
+.articles-contact-form .btn span{
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;
+}
+
+/********* Left menu **********/
+.left_menu h3{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 30px 0 0;
+	padding: 5px 8px;
+	color: #663800;
+	background: #fedb00;
+}
+.left_menu_ul li.divider{
+	list-style: none;
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin: 10px 0 10px 5px;
+	border-bottom: 1px solid #333;
+}
+.left_menu_ul li span.separator{
+	display: block;
+	padding: 5px 0;
+	font-size: 15px;
+	color: #404000;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.left_menu_ul li.activer span.separator{
+	color: #004612;
+}
+.left_menu_ul li span.separator::after{
+	content: "+";
+	float: right;
+	margin-right: 2px;
+	color: #000;
+}
+.left_menu_ul li.activer span.separator::after{
+	content: "\2014";
+	float: right;
+	margin-right: 2px;
+	color: #000;
+}
+.left_menu_ul>.divider>ul.nav-child{
+	display: none;
+}
+.left_menu_ul>.divider>ul.nav-child li{
+	margin: 3px 0;
+	list-style: none;
+	font-weight: normal;
+}
+.left_menu_ul>.divider>ul.nav-child li a{
+	padding: 5px 0;
+	display: block;
+}
+.left_menu_ul ul.nav-child li a{
+	color: #000;
+	font-weight: 400;
+}
+.left_menu_ul ul.nav-child li.active a{
+	color: #9D9D9D;
+}
+
+/*********** JoomShopping *************/
+.jshop_categ{
+	width: 270px !important;
+	margin: 0 20px 30px 0;
+	padding-left: 0 !important;
+}
+.jshop_categ:nth-child(3n){
+	margin-right: 0;
+}
+.jshop_categ .sblock2{
+	float: none;
+	width: 100%;
+}
+.jshop_categ .category-title{
+	background: #FDDA00;
+	height: 53px;
+	width: 270px;
+}
+.jshop_categ .category-title a{
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 5px 12px;
+	color: #663800;
+}
+.jshop_categ .image{
+	padding: 0;
+}
+.category_short_description{
+	display: none;
+}
+#mxcpr{
+	display: none;
+}
+.jshop h1{
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.oiproduct .buttons{
+	display: none;
+}
+
+.search form{
+	margin-top: 28px;
+	text-align: right;
+}
+#jshop_search{
+	width: 214px;
+	padding: 0 0 0 10px;
+	margin-right: -4px;
+	height: 33px;
+	background: url('../images/verstka/search-input.png') no-repeat top left;
+	border:none;
+	outline: none;
+}
+.search form .button{
+	width: 37px;
+	height: 33px;
+	background: url('../images/verstka/search-button.png') no-repeat top left;
+	border:none;
+	outline: none;
+	padding: 0;
+	color: transparent;
+}
+#comjshop_list_product .row-fluid .sblock3{
+	width: 270px !important;
+	margin: 0 20px 30px 0;
+	padding-left: 0 !important;
+}
+#comjshop_list_product .row-fluid .sblock3:nth-child(3n){
+	margin-right: 0;
+}
+.block_product .description{
+	display: none;
+}
+.image_middle .text_zoom{
+	display: none;
+}
+.list_product_demo{
+	background: url('../images/verstka/pdf.png') no-repeat center left;
+	width: 150px;
+	padding: 7px 5px 5px 33px;
+	float: left;
+}
+.jshop .list_product_demo {
+	padding-top: 7px;
+}
+.get-comercial-propose a{
+	color: #663800;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+.get-comercial-propose{
+	float: right;
+	width: 285px;
+	background-color: #FEDB00;
+	padding: 5px 10px 5px 70px;
+	background-image: url('../images/verstka/envelop.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.productfull .image_middle{
+	float: left;
+	width: 465px;
+	margin-right: 20px;
+}
+.productfull .jshop_prod_short_description{
+	float: left;
+	width: 365px;
+}
+.jshop_prod_description{
+	margin: 30px 0;
+}
+.nav-tabs li{
+	list-style: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #E7E7E7;
+	margin-right: 3px;
+}
+.nav-tabs li a{
+	display: block;
+	padding: 8px 10px;
+	min-width: 110px;
+}
+.tab-content{
+	margin-top: 15px
+}
+.nav-tabs{
+	height: 41px;
+}
+.tab-content #description p{
+	margin: 1px 0;
+}
+.prod-tech-table{
+	width: 100%;
+}
+.prod-tech-table tr td{
+	text-align: center;
+	padding: 5px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.prod-tech-table tr td:last-child{
+	border-right: none;
+}
+.prod-tech-table .second-header-td{
+	background: #909090;
+	border: none;
+	text-align: center;
+	color: #fff;
+}
+.prod-tech-table .main-header{
+	text-transform: uppercase;
+	color: #000;
+	border: none;
+	font-weight: bold;
+	background: #fcda00;
+}
+
+
+/************ Footer *************/
+.pre-footer {
+	height: 80px;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background: #404000;
+}
+.footer-wrap{
+	width: 1140px;
+	margin: 20px auto 0;
+}
+.footer-text{
+	color: #fff;
+	font-size: 15px;
+	float: left;
+	width: 500px;
+}
+.footer-soc{
+	float: right;
+	width: 300px;
+	text-align: right;
+}
+.footer-soc p{
+	margin: 0;
+}
+.footer-soc p a{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+/* MEDIA QUERIES
+*********************************************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query -> mobile first strategy */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* for higher resolutions (android and retina) */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (max--moz-device-pixel-ratio: 1.5) {
+  
+}
