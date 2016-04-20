@@ -39,8 +39,15 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
     </header>
     <div class="clear"></div>
 
-    <nav>
-        <div class="mainmenu">
+    <nav class="navbar" role="navigation">
+<!--        <div class="navbar-header">-->
+<!--            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--                <span class="sr-only">Toggle navigation</span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--        </div>-->
+        <div class="mainmenu navbar-collapse collapse row menu">
             <jdoc:include type="modules" name="mainmenu" />
         </div>
         <div class="menu-services">

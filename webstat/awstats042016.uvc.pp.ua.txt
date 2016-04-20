@@ -8,32 +8,32 @@ AWSTATS DATA FILE 6.95 (build 1.943)
 # update).
 BEGIN_MAP 27
 POS_GENERAL 1955                
-POS_TIME 2643                
-POS_VISITOR 7773                
-POS_DAY 9155                
-POS_DOMAIN 3409                
-POS_LOGIN 3645                
-POS_ROBOT 3800                
-POS_WORMS 4009                
-POS_EMAILSENDER 4140                
-POS_EMAILRECEIVER 4283                
-POS_SESSION 9644                
-POS_SIDER 9851                
-POS_FILETYPES 4418                
-POS_OS 4682                
-POS_BROWSER 4803                
-POS_SCREENSIZE 5125                
-POS_UNKNOWNREFERER 5199                
-POS_UNKNOWNREFERERBROWSER 5348                
-POS_ORIGIN 5465                
-POS_SEREFERRALS 5608                
-POS_PAGEREFS 5773                
-POS_SEARCHWORDS 5921                
-POS_KEYWORDS 6079                
-POS_MISC 2305                
-POS_ERRORS 6144                
-POS_CLUSTER 3501                
-POS_SIDER_404 6259                
+POS_TIME 2647                
+POS_VISITOR 7956                
+POS_DAY 9327                
+POS_DOMAIN 3426                
+POS_LOGIN 3662                
+POS_ROBOT 3817                
+POS_WORMS 4026                
+POS_EMAILSENDER 4157                
+POS_EMAILRECEIVER 4300                
+POS_SESSION 9852                
+POS_SIDER 10059               
+POS_FILETYPES 4435                
+POS_OS 4704                
+POS_BROWSER 4838                
+POS_SCREENSIZE 5221                
+POS_UNKNOWNREFERER 5295                
+POS_UNKNOWNREFERERBROWSER 5444                
+POS_ORIGIN 5561                
+POS_SEREFERRALS 5704                
+POS_PAGEREFS 5869                
+POS_SEARCHWORDS 6017                
+POS_KEYWORDS 6175                
+POS_MISC 2309                
+POS_ERRORS 6240                
+POS_CLUSTER 3518                
+POS_SIDER_404 6355                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -45,14 +45,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20160418000434 1193 379608 20682491813074
+LastLine 20160419235320 14045 3796870 12467935645299
 FirstTime 20160401152940
-LastTime 20160418000433
-LastUpdate 20160418000621 1193 0 1193 0 0
-TotalVisits 62                  
-TotalUnique 22                  
+LastTime 20160419235320
+LastUpdate 20160420000626 14045 0 14045 0 0
+TotalVisits 74                  
+TotalUnique 23                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 35                  
+MonthHostsUnknown 36                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -62,7 +62,7 @@ JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 PDFSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 227 0
+AddToFavourites 0 247 0
 RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
 DirectorSupport 0 0 0
@@ -71,7 +71,7 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 365 772 10960796 101 106 45457
+0 635 2642 70023227 108 114 48092
 1 83 214 4319850 30 30 10335
 2 0 0 0 0 0 0
 3 0 0 0 0 0 0
@@ -80,27 +80,27 @@ BEGIN_TIME 24
 6 0 0 0 0 0 0
 7 0 0 0 0 0 0
 8 0 0 0 0 0 0
-9 17 60 460410 6 6 2220
-10 368 2736 88783082 67 75 50484
-11 1329 9712 300308400 216 246 112299
-12 1062 6436 148138453 93 117 67451
-13 1017 5785 150393280 286 317 149544
-14 762 5042 122343997 24 35 20731
-15 185 1089 26124700 14 22 16125
-16 750 5178 122675721 43 102 95738
-17 912 6160 137034604 120 187 141917
-18 215 1922 59732233 10 14 9202
+9 19 78 477630 6 6 2220
+10 466 3863 112927612 70 85 71083
+11 1397 10097 306814926 223 255 117539
+12 1069 6461 148765164 93 117 67451
+13 1057 6589 173989584 286 318 149544
+14 1042 9788 251515547 24 37 23601
+15 203 1233 30248125 14 24 18995
+16 948 7179 173695873 44 105 105627
+17 1172 9210 230968042 120 188 143352
+18 333 3853 119521497 13 17 10225
 19 9 203 8209199 0 4 5740
 20 11 147 4261347 2 7 10973
-21 3 20 1263540 1 3 9889
-22 35 285 1725448 1 3 6100
-23 190 1264 32683323 28 33 29918
+21 10 100 1347023 1 3 9889
+22 243 1765 44967448 1 3 6100
+23 499 3735 95632733 28 42 41469
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-ip 7313 47025 1219418383
+ip 9196 67157 1777684827
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -115,7 +115,7 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
 BEGIN_ROBOT 2
-favicon 14 66333 20160417231819 0
+favicon 18 86473 20160419162800 0
 commons\-httpclient 1 475 20160401153207 0
 END_ROBOT
 
@@ -136,44 +136,48 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 10
-css 1511 16801725 0 0
-png 18601 29676986 0 0
-pdf 1 20861 0 0
-woff 47 353766 0 0
-php 3078 22001949 0 0
-html 1483 4998198 0 0
-js 12564 210825027 0 0
-jpg 6104 922397041 0 0
-Unknown 2704 9966842 0 0
-gif 932 2375988 0 0
+css 2636 29579923 0 0
+png 26361 40836330 0 0
+pdf 5 1650865 0 0
+woff 49 405184 0 0
+php 3483 24220673 0 0
+html 2008 8645620 0 0
+js 18248 322284035 0 0
+jpg 9466 1331810822 0 0
+Unknown 3651 15126651 0 0
+gif 1250 3124724 0 0
 END_FILETYPES
 
 # OS ID - Hits
-BEGIN_OS 7
-macosx 297
-linuxandroid 244
+BEGIN_OS 8
+macosx 4412
+linuxandroid 574
 winxp 69
-winnt 185
+winnt 467
 Unknown 6
-linux 43528
-win2008 2696
+winvista 77
+linux 53000
+win2008 8552
 END_OS
 
 # Browser ID - Hits
-BEGIN_BROWSER 15
-chrome43.0.2357.81 13
-netscape5.0 9
-chrome48.0.2564.109 102
+BEGIN_BROWSER 18
 firefox44.0 1136
+android 113
 chrome49.0.2623.110 897
-msie7.0 69
-android 95
 chrome49.0.2623.105 98
-chrome48.0.2564.116 42257
-chrome27.0.1453 33
+chrome48.0.2564.116 51729
 lg\- 1
-chrome44.0.2403.133 50
-chrome49.0.2623.112 2201
+chrome43.0.2357.81 13
+chrome48.0.2564.109 102
+netscape5.0 9
+msie7.0 69
+chrome27.0.1453 33
+safari8.0 4026
+chrome49.0.2623.91 264
+chrome50.0.2661.75 77
+chrome49.0.2623.112 8428
+chrome44.0.2403.133 98
 Unknown 1
 safari9.0.2 63
 END_BROWSER
@@ -195,11 +199,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 2203 2224
+From0 2660 2681
 From1 0 0
 From2 5 5
 From3 0 0
-From4 5105 44796
+From4 6531 64471
 From5 0 0
 END_ORIGIN
 
@@ -228,13 +232,13 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-303 1015 351962
+303 1032 357990
 301 3 1575
-404 32 23221
+404 34 24727
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referer
-BEGIN_SIDER_404 19
+BEGIN_SIDER_404 20
 / 5 http://uvc.pp.ua/11-novini/7-illichivskij-port-perevaliv-300-tis-ton-zerna
 /js/scripts.js 2 http://uvc.pp.ua/
 /images/menu/generatory.png 2 http://uvc.pp.ua/finansuvannya
@@ -254,22 +258,23 @@ BEGIN_SIDER_404 19
 /images/menu/silove-white-white-white.png 1 http://uvc.pp.ua/finansuvannya
 /images/menu/silove-white-white.png 1 http://uvc.pp.ua/finansuvannya
 /templates/uvc/css/bootstrap.css.map 2 -
+/templates/uvc/img/menu-icon.png 2 http://uvc.pp.ua/templates/uvc/css/template.css.php
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 35
-195.64.149.118 6508 43496 1142019695 20160415181602
-31.43.111.162 677 2584 50894937 20160418000433 20160418000024 /component/foxcontact/loader/module/105/components/foxtext/js
-62.216.43.90 57 221 5155218 20160415183832
-91.226.253.139 24 207 7514998 20160415191918
+BEGIN_VISITOR 36
+195.64.149.118 7495 57113 1525453703 20160419181420
+31.43.111.162 1471 8485 216232261 20160419235320 20160419222044 /
+62.216.43.90 74 310 5619305 20160418105507
+91.226.253.139 71 537 12022725 20160418145353
+77.222.139.250 36 177 4506078 20160419165936
 37.55.218.212 16 108 2707298 20160415232744
 91.225.123.226 6 108 1665266 20160415140824
-178.38.69.127 4 92 2198782 20160417121350
+178.38.69.127 6 110 2216002 20160418090953
 93.72.68.184 4 99 2198782 20160415193003
 111.206.36.4 3 3 11752 20160415232609
-111.206.36.143 2 8 143195 20160415232619
 85.223.209.59 0 1 542911 
 61.135.165.8 1 12 425759 20160415232431
 40.78.146.128 1 1 18804 20160415121431
@@ -286,6 +291,7 @@ BEGIN_VISITOR 35
 111.206.36.12 1 1 4479 20160415232344
 111.206.36.13 1 4 46857 20160415232606
 111.206.36.141 1 2 7395 20160415232608
+111.206.36.143 2 8 143195 20160415232619
 111.206.36.16 0 3 83992 
 111.206.36.5 1 1 4479 20160415232609
 111.206.36.14 0 1 21 
@@ -298,7 +304,7 @@ BEGIN_VISITOR 35
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 16
+BEGIN_DAY 17
 20160401 500 1803 20952544 1
 20160403 6 23 1270266 2
 20160404 23 98 1539316 2
@@ -314,111 +320,123 @@ BEGIN_DAY 16
 20160415 1656 13399 367240787 24
 20160416 0 1 542911 0
 20160417 127 901 23663544 2
-20160418 33 267 8190864 1
+20160418 851 6378 175310014 8
+20160419 1065 14021 391147294 5
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 7
-1h+ 11
+1h+ 16
 5mn-15mn 6
 2mn-5mn 6
-15mn-30mn 2
-0s-30s 24
-30s-2mn 7
-30mn-1h 5
+15mn-30mn 3
+0s-30s 26
+30s-2mn 8
+30mn-1h 8
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 90
-/administrator/index.php 1859 17948532 3 4
-/ 1478 4977451 46 16
-/templates/uvc/css/template.css.php 1209 4023118 5 20
-/servis 406 1409456 3 1
-/finansuvannya 308 1081784 0 2
-/component/foxcontact/loader/module/102/media/bootstrap/css 133 446226 1 2
-/component/foxcontact/loader/module/102/media/chosen/css 133 372400 0 0
-/component/foxcontact/loader/module/102/components/bootstrap/css 133 324653 0 2
-/component/foxcontact/loader/module/102/components/foxtext/js 132 161172 1 1
-/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/1 120 1030308 0 1
-/11-novini/7-illichivskij-port-perevaliv-300-tis-ton-zerna 11 52544 0 0
+BEGIN_SIDER 101
+/ 2003 8624873 56 19
+/administrator/index.php 1898 18318330 3 4
+/templates/uvc/css/template.css.php 1575 5872044 5 23
+/servis 445 1659992 3 1
+/finansuvannya 357 1398516 0 2
+/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/1 336 3116234 2 2
+/component/foxcontact/loader/module/102/media/bootstrap/css 151 506634 1 2
+/component/foxcontact/loader/module/102/media/chosen/css 151 422800 0 0
+/component/foxcontact/loader/module/102/components/bootstrap/css 151 368591 0 2
+/component/foxcontact/loader/module/102/components/foxtext/js 150 183150 1 1
+/11-novini/7-illichivskij-port-perevaliv-300-tis-ton-zerna 19 108539 0 0
 /media/editors/tinymce/skins/lightgray/fonts/tinymce-small.woff 11 38656 0 0
 /ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/4 54 397688 0 0
-/component/foxcontact/loader/module/103/media/bootstrap/css 96 322176 0 0
 /zernova-tehnika/rozkidachi-min-dobriv 2 11969 0 0
 /ovocheva-tehnika/doglyad-za-posivami 43 212024 0 0
-/zroshuvalna-tehnika/pivoti 1 5744 0 0
+/component/foxcontact/loader/module/103/media/bootstrap/css 120 402720 0 0
+/zroshuvalna-tehnika/pivoti 2 11590 0 0
 /2016-04-07-14-28-54/gruntoobrobna-tekhnika 2 7748 0 0
+/ovocheva-tehnika/sivalki-ta-posadkova-tekhnika 8 38854 0 0
 /ovocheva-technika/obpriskuvachi/navisni-obpriskuvachi 1 4935 0 0
-/ovocheva-tehnika/sivalki-ta-posadkova-tekhnika 7 31984 0 0
-/component/foxcontact/loader/module/103/media/chosen/css 96 268800 0 0
+/component/foxcontact/loader/module/103/media/chosen/css 120 336000 0 0
 /zernova-tehnika/zbir-vrozhayu 2 9716 0 0
 /media/editors/tinymce/skins/lightgray/fonts/tinymce.woff 11 58020 0 0
+/components/com_jshopping/files/demo_products/pdf-test.pdf 1 20861 0 0
 /sadova-tehnika/zbir-vrozhayu 2 11037 0 0
 /sadova-teshnika/rozkidachi-min-dobriv/prichepni 1 5860 0 0
 /sadova-tehnika/kompyuteri-ta-navigatsijni-pristroji 4 22707 0 0
 /ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/2 37 311223 0 0
-/component/foxcontact/loader/module/105/media/bootstrap/css 69 231495 0 0
+/component/foxcontact/loader/module/105/media/bootstrap/css 132 442860 0 0
 /silove-obladnannya-honda/gruntofrezi 1 5822 0 0
 /zernova-tehnika/kompyuteri-ta-navigatsijni-pristroji 1 5934 0 0
-/11-novini/6-minagroprod-priverne-investitsiji-dlya-modernizatsiji-zroshuvannya-na-khersonshchini 5 22137 0 0
+/ovocheva-technika/tekhnika-dlya-zboru-vrozhayu/zbir-morkvi 1 5873 0 0
+/11-novini/6-minagroprod-priverne-investitsiji-dlya-modernizatsiji-zroshuvannya-na-khersonshchini 9 50217 0 0
 /zernova-tehnika/obpriskuvachi 3 16659 0 0
-/11-novini/5-chastina-pererobki-zernovikh-u-morskikh-portakh-sklala-majzhe-26 9 41761 0 0
-/ovocheva-technika/gruntoobrobna-tekhnika/frezi-ta-kultivatori 2 11597 0 0
-/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/3 15 128586 0 0
+/11-novini/5-chastina-pererobki-zernovikh-u-morskikh-portakh-sklala-majzhe-26 16 90838 0 0
+/ovocheva-technika/gruntoobrobna-tekhnika/frezi-ta-kultivatori 3 18266 0 0
+/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli/product/view/11/3 19 166029 0 0
 /ovocheva-tehnika/obpriskuvachi 11 54171 0 0
 /zroshuvalna-tehnika/nasosni-stantsiji-scova 2 11540 0 0
 /sadova-tehnika/mijki 3 17014 0 0
 /2016-04-05-22-38-35/2016-04-15-07-46-39/glibokorozpushuvachi-ta-chizeli 2 10954 0 0
 /ovocheva-tehnika/tekhnika-dlya-zboru-vrozhayu 2 10646 0 0
+/components/com_jshopping/files/demo_products/Povidomlennya_actsioneriv_pro_provedennya_ZZA_scan.PDF 3 1609143 0 0
 /zernova-tehnika/sivalki 1 5728 0 0
+/zernova-technika/mulchuvachi-ta-podribnyuvachi/polovi 1 5871 0 0
 /administrator/ 5 20747 1 0
 /zernova-tehnika/mijki 7 41547 0 0
 /ovocheva-technika/rozkidachi-min-dobriv/sutsilni 2 9574 0 0
 /ovocheva-tehnika/mulchuvachi-ta-podribnyuvachi 2 9496 0 0
-/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli 38 252482 1 1
-/silove-obladnannya-honda/lodochni-motori 3 13932 0 0
-/silove-obladnannya-honda/dviguni-zagalnogo-priznachennya 1 5809 0 0
-/ovocheva-tehnika/rozkidachi-min-dobriv 17 79082 0 0
-/silove-obladnannya-honda/motopompi 9 46097 0 1
-/silove-obladnannya-honda/snigopribiralna-tekhnika 2 11685 0 0
+/ovocheva-technika/gruntoobrobna-tekhnika/glibokorozpushuvachi-ta-chizeli 89 603932 1 1
+/silove-obladnannya-honda/lodochni-motori 4 19783 0 0
+/silove-obladnannya-honda/dviguni-zagalnogo-priznachennya 3 17521 0 0
+/ovocheva-tehnika/rozkidachi-min-dobriv 19 92810 0 0
+/silove-obladnannya-honda/motopompi 10 52749 0 1
+/sadova-teshnika/gruntoobrobna-tekhnika/sadovi-frezi 3 17809 0 0
+/silove-obladnannya-honda/snigopribiralna-tekhnika 7 41074 0 1
 /zernova-tehnika/mulchuvachi-ta-podribnyuvachi 2 11807 0 0
 /administrator/components/com_joomlaupdate/restore.php 10 30299 0 0
-/sadova-tehnika/gruntoobrobna-tekhnika 12 67321 0 0
-/elektro-generatory/scova-do-2-mvtt 1 5782 0 0
-/10-chomu-uvc/4-chomu-uvc 30 111994 0 1
+/sadova-tehnika/gruntoobrobna-tekhnika 13 73400 0 0
+/elektro-generatory/scova-do-2-mvtt 2 11634 0 0
+/10-chomu-uvc/4-chomu-uvc 67 352109 0 1
 /ovocheva-tehnika/mijki 33 175168 0 0
 /sadova-tehnika/rozkidachi-min-dobriv 2 11400 0 0
-/aktsiji 43 114075 0 2
-/zroshuvalna-tehnika/frontalki 3 17426 0 0
-/zernova-tehnika/gruntoobrobna-tekhnika 2 11428 0 0
+/aktsiji 52 161667 0 2
+/zroshuvalna-tehnika/frontalki 4 23275 0 0
+/zernova-tehnika/gruntoobrobna-tekhnika 3 17514 0 0
 /index.php/finansuvannya 17 28995 0 1
-/component/foxcontact/loader/module/103/components/foxtext/js 97 118437 0 1
-/ovocheva-technika/gruntoobrobna-tekhnika/frezi-ta-kultivatori/product/view/12/2 22 128836 0 0
+/component/foxcontact/loader/module/103/components/foxtext/js 120 146520 0 1
+/ovocheva-technika/gruntoobrobna-tekhnika/frezi-ta-kultivatori/product/view/12/2 23 137303 0 0
+/component/jshopping/product/view/11/3 3 28212 0 0
 /sadova-tehnika/obpriskuvachi 2 11311 0 0
-/ovocheva-tehnika/gruntoobrobna-tekhnika 92 437273 0 0
+/ovocheva-tehnika/gruntoobrobna-tekhnika 150 793676 0 0
+/sadova-teshnika/gruntoobrobna-tekhnika/diskovi-boroni 1 5873 0 0
 /component/jshopping/category/view/13 1 4397 0 0
-/component/foxcontact/loader/module/105/media/chosen/css 69 193200 0 0
+/component/foxcontact/loader/module/105/media/chosen/css 132 369600 0 0
+/component/jshopping/product/view/11/2 1 8474 0 0
 /index.php/servis 4 6597 0 1
-/component/foxcontact/loader/module/105/components/bootstrap/css 69 168429 0 0
+/component/foxcontact/loader/module/105/components/bootstrap/css 132 322212 0 0
 /component/jshopping/product/view/11/1 3 16645 0 1
 /2016-04-07-14-28-54/doglyad-za-posivami 1 3753 0 0
 /components/com_jshopping/files/demo_products/pdf-test2.pdf 1 20861 0 0
-/component/jshopping/search/result 46 215750 0 0
 /elektro-generatory/honda-do-11-kvtt 1 5764 0 0
-/ovocheva-tehnika/kompyuteri-ta-navigatsijni-pristroji 1 5123 0 0
+/component/jshopping/search/result 54 267526 0 0
 /sadova-tehnika/mulchuvachi-ta-podribnyuvachi 2 11211 0 0
+/ovocheva-tehnika/kompyuteri-ta-navigatsijni-pristroji 2 11178 0 0
 /silove-obladnannya-honda/gazonokosarki-ta-motokosi 5 25685 0 0
-/component/foxcontact/loader/module/103/components/bootstrap/css 96 234336 0 0
+/component/foxcontact/loader/module/103/components/bootstrap/css 120 292920 0 0
 /sadova-tehnika/posadka 3 15121 0 0
 /silove-obladnannya-honda/motopompi/product/view/95/1 1 5779 0 0
+/ovocheva-technika/gruntoobrobna-tekhnika/gryadoutvoryuvachi-aktivni-ta-pasivni/product/view/13/3 3 28113 0 1
 /index.php/aktsiji 13 23745 0 0
-/ovocheva-technika/kompyuteri-ta-navigatsijni-pristroji/leica 9 46278 0 0
-/media/jui/fonts/IcoMoon.woff 25 257090 0 1
-/zroshuvalna-tehnika/kotushki 3 14711 0 0
+/ovocheva-technika/kompyuteri-ta-navigatsijni-pristroji/leica 10 52142 0 0
+/media/jui/fonts/IcoMoon.woff 27 308508 0 1
 /silove-obladnannya-honda/minielektrostantsiji 1 5799 0 0
 /component/jshopping/category/view/11 15 73184 1 1
-/component/foxcontact/loader/module/105/components/foxtext/js 70 85470 0 1
+/zroshuvalna-tehnika/kotushki 4 20665 0 0
+/component/foxcontact/loader/module/105/components/foxtext/js 133 162393 0 4
 /2016-04-07-14-28-54/sivalki-ta-posadkova-tekhnika 1 3774 0 0
+/ovocheva-tehnika/rozkidachi-min-dobriv/product/view/3/4 1 8456 0 0
+/ovocheva-technika/gruntoobrobna-tekhnika/gryadoutvoryuvachi-aktivni-ta-pasivni 2 13474 0 0
 /ovocheva-technika/sivalki-ta-posadkova-tekhnika/sivalki-agricola 1 4936 0 0
 END_SIDER

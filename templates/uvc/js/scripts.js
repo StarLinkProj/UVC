@@ -19,4 +19,35 @@ jQuery(document).ready(function($) {
     activeLi.children(".nav-child").css('display', 'block');
 
 
+	/* Подготавливаем иконку меню */
+    jQuery('.mainmenu').prepend('<div id="menu-icon">Меню</div>');
+	
+	/* Переключаем навигацию */
+    jQuery("#menu-icon").on("click", function(){
+        jQuery(".menumain").slideToggle();
+        jQuery(this).toggleClass("active");
+	});
+
+    jQuery('.menumain>li>a').each(function() {
+        $(this).attr("href", "javascript:void(0);");
+    });
+
+    if ($( window ).width() < 767) {
+        jQuery(".menumain>li").on("click", function (e) {
+            if (jQuery(this).children("ul").hasClass("active")) {
+                jQuery(this).children("ul").slideUp();
+                jQuery(this).children("ul").removeClass("active");
+                jQuery(this).removeClass("hover");
+            } else {
+                var activeLi = jQuery(".menumain>li.hover");
+                activeLi.removeClass("hover");
+                activeLi.children("ul").slideUp();
+                activeLi.children("ul").removeClass("active");
+                jQuery(this).children("ul").slideDown();
+                jQuery(this).children("ul").addClass("active");
+                jQuery(this).addClass("hover");
+            }
+        });
+    }
+
 });
